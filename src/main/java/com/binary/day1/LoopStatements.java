@@ -23,5 +23,15 @@ public class LoopStatements {
             }
             c+=2;
         }
+        int d = 39;
+        do{
+            if(d%5 == 0){
+                System.out.println(d +" Divisible by 5.");
+            }
+            else{
+                System.out.print(d+" ");
+            }
+            d+=2;
+        }while(d <150);
     }
 }
